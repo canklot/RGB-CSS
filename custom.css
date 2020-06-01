@@ -1,0 +1,25 @@
+/*///////////    S  T  A  R  T    ///////////////////*/
+/*///////////  C  O  L  O  R  S  ///////////////////*/
+
+.rgb {display: inline-flex;}
+.rgb_main {
+   	animation:rgb_animation 30s;
+	-webkit-animation:rgb_animation 30s infinite; /* Safari and Chrome */}
+
+@-webkit-keyframes rgb_animation /* Safari and Chrome */ {
+		0% {background:#ff0000;}
+		10% {background:#ff5100;}
+		20% {background:#fffb00;}
+		30% {background:#09ff00;}
+		40% {background:#00ffdd;}
+		50% {background:#00e1ff;}
+		60% {background:#003cff;}
+		70% {background:#7700ff;}
+		80% {background:#ff00f2;}
+		90% {background:#ff0088;}
+		100% {background:#ff0000;}}
+/*///// Start color and end color must be same /////*/
+
+
+/*///////////       E  N  D      ///////////////////*/
+/*///////////  C  O  L  O  R  S  ///////////////////*/
